@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Movie Collection App</string>
+    <string name="no_movies">No Movies</string>
+    <string name="menuitem_add">Add</string>
+    <string name="menuitem_edit">Edit</string>
+    <string name="menuitem_delete">Delete</string>
+    <string name="button_save_movie">Save</string>
+    <string name="hint_title">Title (Required)</string>
+    <string name="hint_director">Director</string>
+    <string name="hint_year">Year of Release</string>
+    <string name="hint_cast">Cast</string>
+    <string name="label_title">Title:</string>
+    <string name="label_director">Director:</string>
+    <string name="label_year">Year:</string>
+    <string name="label_cast">Cast:</string>
+    <string name="confirm_title">Are You Sure?</string>
+    <string name="confirm_message">This will permanently delete the movie from the list</string>
+    <string name="ok">OK</string>
+    <string name="error_message">You must enter a movie title</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_delete">Delete</string>
+
+</resources>

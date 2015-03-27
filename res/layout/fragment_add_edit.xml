@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addEditScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="1"
+        android:orientation="vertical"
+        android:useDefaultMargins="true" >
+
+        <EditText
+            android:id="@+id/movieTitleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_title"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName|textCapWords" >
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/directorEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_director"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/yearEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_year"
+            android:imeOptions="actionNext"
+            android:ems="4"
+            android:inputType="number" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/castEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_cast"
+            android:imeOptions="actionNext"
+            android:inputType="textPostalAddress|textCapWords" >
+        </EditText>
+
+        <Button
+            android:id="@+id/saveMovieButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/button_save_movie" >
+        </Button>
+
+    </GridLayout>
+
+</ScrollView>

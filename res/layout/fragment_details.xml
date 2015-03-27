@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detailsScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="vertical"
+        android:useDefaultMargins="true" >
+
+    <TextView
+        android:id="@+id/movieTitleLabelTextView"
+        style="@style/MovieLabelTextView"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:text="@string/label_title" />
+
+    <TextView
+        android:id="@+id/movieTitleTextView"
+        android:layout_column="1"
+        android:layout_row="0"
+        style="@style/MovieTextView" />
+
+    <TextView
+        android:id="@+id/directorLabelTextView"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:text="@string/label_director"
+        style="@style/MovieLabelTextView" />
+
+    <TextView
+        android:id="@+id/directorTextView"
+        android:layout_column="1"
+        android:layout_row="1"
+        style="@style/MovieTextView" />
+
+    <TextView
+        android:id="@+id/yearLabelTextView"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:text="@string/label_year"
+        style="@style/MovieLabelTextView" />
+
+    <TextView
+        android:id="@+id/yearTextView"
+        android:layout_column="1"
+        android:layout_row="2"
+        style="@style/MovieTextView" />
+    
+    <TextView
+        android:id="@+id/castLabelTextView"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:text="@string/label_cast"
+        style="@style/MovieLabelTextView" />
+
+    <TextView
+        android:id="@+id/castTextView"
+        android:layout_column="1"
+        android:layout_row="3"
+        style="@style/MovieTextView" />
+    
+   
+</GridLayout>
+
+</ScrollView>
